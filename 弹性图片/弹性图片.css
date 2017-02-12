@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.container{
+    overflow:hidden;
+    width: 90%;
+    margin: 0 auto;
+}
+div-item{
+    width: 100%;
+}
+
+.img{
+    max-width: 100%;
+    height: auto;
+}
+p {
+/*    column-width: 12em;*/
+    column-count: 3;
+    column-gap: 2em;
+    column-rule: thin dotted #999;
+
+}
+p::first-line {
+    color: #ff0cff;
+}
+body{
+    background-color: #fff;
+    background-image:
+            linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+            linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+}
